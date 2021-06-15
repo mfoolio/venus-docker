@@ -6,4 +6,4 @@ git submodule update --init --remote
 # For each submodule, update nested submodules (not to HEAD).
 git submodule foreach 'git submodule update --init'
 
-docker build . -t mqtt
+docker build . -t victronenergy/venus-docker:1.0.0-KVNRV
